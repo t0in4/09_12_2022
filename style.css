@@ -1,0 +1,30 @@
+#mainMenu ul {
+    list-style-type: none;
+}
+
+#mainMenu {
+	margin: 10px;
+	width: 900px;
+	font-family: sans-serif;
+}
+#mainMenu li {
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+	border:1px solid black;
+}
+#mainMenu a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	background-color:#fff;
+	color:blue;
+    
+}
+#mainMenu a:hover {
+	background-color:blue;
+	color:#fff;
+    font-style: italic;
+    font-family: fantasy;
+}
